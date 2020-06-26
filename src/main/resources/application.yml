@@ -1,0 +1,35 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /choushi
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/choushi?characterEncoding=utf-8&useSSL=false&serverTimezone=Hongkong
+    username: root
+    password: root
+  jpa:
+    #    hibernate:
+    #      ddl-auto: update
+    show-sql: true
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  type-aliases-package: com.aliEducation.entity
+  configuration:
+    useGeneratedKeys: true
+    mapUnderscoreToCamelCase: true
+mapper:
+  mappers: com.aliEducation.util.TKMapper
+  not-empty: false
+  identity: MYSQL
+
