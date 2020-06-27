@@ -1,11 +1,19 @@
 package com.aliEducation.service;
 
- import com.aliEducation.entity.User;
+ import com.aliEducation.dao.UserMapper;
+ import com.aliEducation.entity.mysql.User;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Service;
 
-public interface UserService {
+@Service
+public class UserService {
 
-    User selectUserById(int id);
+    @Autowired
+    private UserMapper userMapper;
 
-    boolean login(User user);
+
+    public User selectUserById(long id){
+        return userMapper.selectByPrimaryKey(id);
+    }
 
 }

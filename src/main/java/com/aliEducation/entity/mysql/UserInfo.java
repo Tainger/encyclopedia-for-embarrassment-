@@ -1,4 +1,4 @@
-package com.aliEducation.entity;
+package com.aliEducation.entity.mysql;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
