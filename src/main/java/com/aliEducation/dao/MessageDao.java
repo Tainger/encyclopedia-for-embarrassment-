@@ -2,8 +2,10 @@ package com.aliEducation.dao;
 
 
 import com.aliEducation.entity.mongodb.MongoMessage;
+import com.aliEducation.entity.mongodb.MongoUser;
 import com.mongodb.client.result.DeleteResult;
 import com.mongodb.client.result.UpdateResult;
+import com.mysql.cj.protocol.Message;
 import org.bson.types.ObjectId;
 
 import java.util.List;
@@ -48,4 +50,8 @@ public interface MessageDao {
      * 根据id删除消息
      */
     DeleteResult deleteMessageById(String id);
+
+    MongoUser findUserById(long fromUserId);
+
+    List<MongoMessage> selectNewestMessageOfConversation(long fromUserId, long toUserId);
 }

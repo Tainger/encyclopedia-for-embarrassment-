@@ -2,8 +2,10 @@ package com.aliEducation.dao.impl;
 
 import com.aliEducation.dao.MessageDao;
 import com.aliEducation.entity.mongodb.MongoMessage;
+import com.aliEducation.entity.mongodb.MongoUser;
 import com.mongodb.client.result.DeleteResult;
 import com.mongodb.client.result.UpdateResult;
+import com.mysql.cj.protocol.Message;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
@@ -81,4 +83,26 @@ public class MessageDaoImpl implements MessageDao {
         query.addCriteria(criteria);
         return mongoTemplate.remove(query,MongoMessage.class);
     }
+
+    /**
+     * 根据fromUserId查询user
+     * @param fromUserId
+     * @return
+     */
+    @Override
+    public MongoUser findUserById(long fromUserId) {
+        Criteria criteria = Criteria.where("id").is(fromUserId);
+        Query query = new Query();
+        query.addCriteria(criteria);
+        return mongoTemplate.findOne(query, MongoUser.class);
+    }
+
+
+    //toDo bupt
+    @Override
+    public List<MongoMessage> selectNewestMessageOfConversation(long fromUserId, long toUserId) {
+        return null;
+    }
+
+
 }

@@ -52,6 +52,7 @@ public class MessageHandler extends TextWebSocketHandler {
     public void handleTextMessage(WebSocketSession session,TextMessage textMessage) throws IOException {
         Long uid = (Long)session.getAttributes().get("uid");
         System.out.println(uid);
+        //根据前端接口解析字符串
         JsonNode jsonNode  = MAPPER.readTree(textMessage.getPayload());
         Long toId = jsonNode.get("toId").asLong();
         String msg = jsonNode.get("msg").asText();
@@ -60,12 +61,15 @@ public class MessageHandler extends TextWebSocketHandler {
         User toUser = userService.selectUserById(toId);
         String toName = toUser.getUserName();
         WebSocketSession toSession=SESSIONS.get(toId);
+        //将解析的数据转换成mongoDB的格式并且存储
         MongoMessage mongoMessage = MongoMessage.builder().
                 id(new ObjectId()).msg(msg).status(0).sendDate(new Date())
-                .readDate(new Date()).from(new MongoUser(uid,fromName)).to(new MongoUser(toId,toName)).build();
+                .readDate(new Date()).from(new MongoUser(new ObjectId(String.valueOf(uid)),fromName))
+                .to(new MongoUser(new ObjectId(String.valueOf(toId)),toName)).build();
         MongoMessage returnMessage = messageDao.insertMessage(mongoMessage);
-
+        //判读收件人在不在线，在线的话发给他，并把消息置换为已读
         if(toSession != null && toSession.isOpen()){
+            //这行代码？
             toSession.sendMessage(new TextMessage(MAPPER.writeValueAsString(returnMessage)));
             messageDao.updateMessageStatusById(returnMessage.getId(),2);
         }
