@@ -1,4 +1,4 @@
-package com.alieducation.entity.mysql;
+package com.alieducation.entity;
 
 import com.alieducation.validator.isMobile;
 import lombok.*;
@@ -7,8 +7,6 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 @Table(name = "user")
 public class User {
     @Id

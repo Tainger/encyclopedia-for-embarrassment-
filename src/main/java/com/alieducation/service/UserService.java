@@ -1,10 +1,13 @@
 package com.alieducation.service;
 
  import com.alieducation.dao.UserMapper;
- import com.alieducation.entity.mysql.User;
+ import com.alieducation.entity.User;
  import org.springframework.beans.factory.annotation.Autowired;
  import org.springframework.stereotype.Service;
 
+/**
+ * @author rocky
+ */
 @Service
 public class UserService {
 

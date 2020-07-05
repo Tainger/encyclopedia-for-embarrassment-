@@ -1,14 +1,8 @@
-package com.alieducation.entity.mysql;
+package com.alieducation.entity;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
-@Getter
-@Setter
-@NoArgsConstructor
-@ToString
+@Data
 public class UserBind {
     private Integer id;
     private Integer type;

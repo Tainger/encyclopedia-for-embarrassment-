@@ -1,6 +1,6 @@
 package com.alieducation;
 
-import com.alieducation.entity.mysql.User;
+import com.alieducation.entity.User;
 import com.alieducation.service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;

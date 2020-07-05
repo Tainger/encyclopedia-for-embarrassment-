@@ -1,6 +1,6 @@
 package com.alieducation.dao;
 
-import com.alieducation.entity.mysql.User;
+import com.alieducation.entity.User;
 import com.alieducation.util.TKMapper;
 import org.apache.ibatis.annotations.Mapper;
 

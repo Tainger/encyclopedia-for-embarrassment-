@@ -3,7 +3,7 @@ package com.alieducation.websocket;
 import com.alieducation.dao.MessageDao;
 import com.alieducation.entity.mongodb.MongoMessage;
 import com.alieducation.entity.mongodb.MongoUser;
-import com.alieducation.entity.mysql.User;
+import com.alieducation.entity.User;
 import com.alieducation.service.UserService;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

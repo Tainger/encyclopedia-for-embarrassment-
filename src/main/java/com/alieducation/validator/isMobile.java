@@ -18,7 +18,7 @@ public @interface isMobile {
 
     boolean required() default true;
 
-    String message() default "  参数校验异常，手机号码格式有误";
+    String message() default "参数校验异常，手机号码格式有误";
 
     Class<?>[] groups() default { };
 
