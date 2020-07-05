@@ -25,12 +25,12 @@ spring:
         min-idle: 0
 mybatis:
   mapper-locations: classpath:/mapper/*.xml
-  type-aliases-package: com.aliEducation.entity
+  type-aliases-package: com.alieducation.entity
   configuration:
     useGeneratedKeys: true
     mapUnderscoreToCamelCase: true
 mapper:
-  mappers: com.aliEducation.util.TKMapper
+  mappers: com.alieducation.util.TKMapper
   not-empty: false
   identity: MYSQL
 

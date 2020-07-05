@@ -2,18 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6abaa7f-3b6b-4138-8458-8c3be571a0eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aliEducation/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aliEducation/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aliEducation/dao/MongoUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aliEducation/dao/impl/MongoUserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aliEducation/service/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/dao/MessageDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aliEducation/dao/MessageDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/dao/impl/MessageDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aliEducation/dao/impl/MessageDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/entity/mongodb/MongoUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aliEducation/entity/mongodb/MongoUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/websocket/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aliEducation/websocket/MessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/ChouShiMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/ChouShiMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/config/RedsiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/config/RedsiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/config/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/config/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/controller/LikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/LikeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/RedisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/dao/MessageDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/MessageDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/dao/MongoUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/MongoUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/dao/impl/MessageDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/impl/MessageDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/dao/impl/MongoUserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/impl/MongoUserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/entity/mongodb/MongoMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/entity/mongodb/MongoMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/entity/mongodb/MongoUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/entity/mongodb/MongoUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/entity/mysql/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/entity/mysql/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/entity/mysql/UserBind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/entity/mysql/UserBind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/entity/mysql/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/entity/mysql/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/exception/GlobalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/exception/GlobeExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/exception/GlobeExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/util/CommunityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/util/ChoushiUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/util/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/util/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/util/TKMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/util/TKMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/util/ValidatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/util/ValidatorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/validator/isMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/validator/isMobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/validator/isMobileValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/validator/isMobileValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/websocket/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/websocket/MessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliEducation/websocket/MessageHandshakeInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/websocket/MessageHandshakeInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/aliEducation/MongoDBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aliEducation/MongoDBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aliEducation/MongoDBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alieducation/MongoDBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aliEducation/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alieducation/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aliEducation/Game.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +104,7 @@
       <module name="choushi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aliEducation.*" />
+          <option name="PATTERN" value="com.alieducation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +116,12 @@
       <module name="choushi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aliEducation.*" />
+          <option name="PATTERN" value="com.alieducation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aliEducation" />
-      <option name="MAIN_CLASS_NAME" value="com.aliEducation.MongoDBTest" />
+      <option name="PACKAGE_NAME" value="com.alieducation" />
+      <option name="MAIN_CLASS_NAME" value="com.alieducation.MongoDBTest" />
       <option name="METHOD_NAME" value="insertMongoDBFromUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -109,12 +132,12 @@
       <module name="choushi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aliEducation.*" />
+          <option name="PATTERN" value="com.alieducation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aliEducation" />
-      <option name="MAIN_CLASS_NAME" value="com.aliEducation.MongoDBTest" />
+      <option name="PACKAGE_NAME" value="com.alieducation" />
+      <option name="MAIN_CLASS_NAME" value="com.alieducation.MongoDBTest" />
       <option name="METHOD_NAME" value="insertMongoDBToUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -125,12 +148,12 @@
       <module name="choushi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aliEducation.*" />
+          <option name="PATTERN" value="com.alieducation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aliEducation" />
-      <option name="MAIN_CLASS_NAME" value="com.aliEducation.MongoDBTest" />
+      <option name="PACKAGE_NAME" value="com.alieducation" />
+      <option name="MAIN_CLASS_NAME" value="com.alieducation.MongoDBTest" />
       <option name="METHOD_NAME" value="insertUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -141,14 +164,21 @@
       <module name="choushi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aliEducation.*" />
+          <option name="PATTERN" value="com.alieducation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aliEducation" />
-      <option name="MAIN_CLASS_NAME" value="com.aliEducation.UserServiceTest" />
+      <option name="PACKAGE_NAME" value="com.alieducation" />
+      <option name="MAIN_CLASS_NAME" value="com.alieducation.UserServiceTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChouShiMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="choushi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alieducation.ChouShiMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -260,6 +290,8 @@
       <workItem from="1593266181412" duration="223000" />
       <workItem from="1593604582740" duration="242000" />
       <workItem from="1593605712316" duration="789000" />
+      <workItem from="1593923819916" duration="296000" />
+      <workItem from="1593924425175" duration="2290000" />
     </task>
     <servers />
   </component>
@@ -388,12 +420,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/aliEducation/dao/impl/MessageDaoImpl.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/alieducation/dao/impl/MessageDaoImpl.java</url>
           <line>56</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/aliEducation/websocket/MessageHandshakeInterceptor.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/alieducation/websocket/MessageHandshakeInterceptor.java</url>
           <line>32</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
