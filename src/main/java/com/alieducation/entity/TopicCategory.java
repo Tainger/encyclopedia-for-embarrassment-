@@ -13,6 +13,9 @@ import java.util.Date;
 public class TopicCategory {
     private  int id;
     private String name;
+    /**
+     * 0禁用， 1删除
+     */
     private boolean status;
     private Date createTime;
 }

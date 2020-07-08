@@ -10,6 +10,6 @@ import org.apache.ibatis.annotations.Mapper;
  * @date 2020/6/27 8:01
  */
 @Mapper
-public interface UserMapper extends TKMapper<User> {
+public interface UserDao extends TKMapper<User> {
 
 }

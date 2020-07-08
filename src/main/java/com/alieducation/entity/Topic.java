@@ -1,9 +1,6 @@
 package com.alieducation.entity;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
 
 import java.util.Date;
 
@@ -20,6 +17,9 @@ public class Topic {
     private String name;
     private String picture;
     private String desc;
+    /**
+     * 0禁用， 1启用
+     */
     private boolean type;
     private Date createTime;
     private int topicCategoryId;

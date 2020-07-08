@@ -16,6 +16,12 @@
     </parent>
 
     <dependencies>
+        <!--阿里大于sdk-->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+            <version>4.5.1</version>
+        </dependency>
         <!-- Swagger -->
         <dependency>
             <groupId>io.springfox</groupId>
@@ -55,7 +61,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.3.0.RELEASE</version>
         </dependency>
         <!--加入lombok-->
         <dependency>

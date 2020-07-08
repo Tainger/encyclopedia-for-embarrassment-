@@ -1,6 +1,6 @@
 package com.alieducation.service;
 
- import com.alieducation.dao.UserMapper;
+ import com.alieducation.dao.UserDao;
  import com.alieducation.entity.User;
  import org.springframework.beans.factory.annotation.Autowired;
  import org.springframework.stereotype.Service;
@@ -12,7 +12,7 @@ package com.alieducation.service;
 public class UserService {
 
     @Autowired
-    private UserMapper userMapper;
+    private UserDao userMapper;
 
 
     public User selectUserById(long id){
