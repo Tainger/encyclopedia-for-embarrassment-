@@ -2,29 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6abaa7f-3b6b-4138-8458-8c3be571a0eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/TopicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/TopicDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/TopicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/topic-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alieducation/TopicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/PostDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dto/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/Impl/PostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/post-mapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/entity/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/entity/Topic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/entity/TopicCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/entity/TopicCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/choushi.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aliEducation/ChouShiMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aliEducation/ChouShiMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aliEducation/config/RedsiConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aliEducation/config/RedsiConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aliEducation/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aliEducation/entity/mysql/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aliEducation/entity/mysql/UserBind.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aliEducation/entity/mysql/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aliEducation/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aliEducation/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aliEducation/validator/isMobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aliEducation/validator/isMobile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aliEducation/websocket/MessageHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aliEducation/websocket/MessageHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/user-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/user-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/MessageDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/MessageDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aliEducation/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aliEducation/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aliEducation/MongoDBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aliEducation/MongoDBTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aliEducation/TopicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aliEducation/TopicTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/aliEducation/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aliEducation/UserServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -69,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2019-基于SpringCloud 微服务架构 广告系统设计与实现/imooc-ad/resources/imooc-ad-spring-cloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -88,12 +78,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ChouShiMain">
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aliEducation.Game" />
+    <configuration name="SMSConstants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alieducation.util.SMSConstants" />
       <module name="choushi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alieducation.*" />
+          <option name="PATTERN" value="com.alieducation.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest.test" />
+        <item itemvalue="Application.SMSConstants" />
         <item itemvalue="JUnit.MongoDBTest.insertUser" />
         <item itemvalue="JUnit.MongoDBTest.insertMongoDBToUser" />
         <item itemvalue="JUnit.MongoDBTest.insertMongoDBFromUser" />
-        <item itemvalue="Application.Game" />
-        <item itemvalue="JUnit.UserServiceTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -287,6 +277,17 @@
       <workItem from="1594013627856" duration="4219000" />
       <workItem from="1594023030406" duration="2192000" />
       <workItem from="1594031464862" duration="4634000" />
+      <workItem from="1594190502721" duration="4955000" />
+      <workItem from="1594196846717" duration="2775000" />
+      <workItem from="1594255685789" duration="3600000" />
+      <workItem from="1594383197378" duration="1700000" />
+      <workItem from="1594452727064" duration="920000" />
+      <workItem from="1594797026322" duration="1015000" />
+      <workItem from="1594798142832" duration="3000" />
+      <workItem from="1594806036172" duration="1765000" />
+      <workItem from="1594812962562" duration="2084000" />
+      <workItem from="1595842641729" duration="1842000" />
+      <workItem from="1596123386513" duration="476000" />
     </task>
     <servers />
   </component>
@@ -302,10 +303,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1591424185202" />
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1593259242554">
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1594257428741">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593259242554" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594257428741" />
     <state x="553" y="279" width="429" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591439680957">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -322,42 +323,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1593186326874" />
-    <state x="366" y="162" key="FileChooserDialogImpl" timestamp="1594030398727">
+    <state x="366" y="162" key="FileChooserDialogImpl" timestamp="1594813798920">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="366" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594030398727" />
-    <state width="1493" height="202" key="GridCell.Tab.0.bottom" timestamp="1593959071725">
+    <state x="366" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594813798920" />
+    <state width="1493" height="196" key="GridCell.Tab.0.bottom" timestamp="1596123863252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593959071725" />
-    <state width="1493" height="202" key="GridCell.Tab.0.center" timestamp="1593959071724">
+    <state width="746" height="299" key="GridCell.Tab.0.bottom/0.0.1536.824/-1600.-70.1600.860@0.0.1536.824" timestamp="1594384897620" />
+    <state width="1493" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596123863252" />
+    <state width="1493" height="196" key="GridCell.Tab.0.center" timestamp="1596123863251">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593959071724" />
-    <state width="1493" height="202" key="GridCell.Tab.0.left" timestamp="1593959071724">
+    <state width="746" height="299" key="GridCell.Tab.0.center/0.0.1536.824/-1600.-70.1600.860@0.0.1536.824" timestamp="1594384897620" />
+    <state width="1493" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596123863251" />
+    <state width="1493" height="196" key="GridCell.Tab.0.left" timestamp="1596123863251">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593959071724" />
-    <state width="1493" height="202" key="GridCell.Tab.0.right" timestamp="1593959071724">
+    <state width="746" height="299" key="GridCell.Tab.0.left/0.0.1536.824/-1600.-70.1600.860@0.0.1536.824" timestamp="1594384897620" />
+    <state width="1493" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596123863251" />
+    <state width="1493" height="196" key="GridCell.Tab.0.right" timestamp="1596123863251">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593959071724" />
-    <state width="1493" height="202" key="GridCell.Tab.1.bottom" timestamp="1593959071725">
+    <state width="746" height="299" key="GridCell.Tab.0.right/0.0.1536.824/-1600.-70.1600.860@0.0.1536.824" timestamp="1594384897620" />
+    <state width="1493" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596123863251" />
+    <state width="1493" height="196" key="GridCell.Tab.1.bottom" timestamp="1596123863252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593959071725" />
-    <state width="1493" height="202" key="GridCell.Tab.1.center" timestamp="1593959071725">
+    <state width="1493" height="196" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596123863252" />
+    <state width="1493" height="196" key="GridCell.Tab.1.center" timestamp="1596123863252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593959071725" />
-    <state width="1493" height="202" key="GridCell.Tab.1.left" timestamp="1593959071725">
+    <state width="1493" height="196" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596123863252" />
+    <state width="1493" height="196" key="GridCell.Tab.1.left" timestamp="1596123863252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593959071725" />
-    <state width="1493" height="202" key="GridCell.Tab.1.right" timestamp="1593959071725">
+    <state width="1493" height="196" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596123863252" />
+    <state width="1493" height="196" key="GridCell.Tab.1.right" timestamp="1596123863252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593959071725" />
+    <state width="1493" height="196" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596123863252" />
     <state width="1493" height="471" key="GridCell.Tab.2.bottom" timestamp="1593188027626">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -374,6 +379,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="471" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593188027626" />
+    <state x="349" y="146" key="IDE.errors.dialog" timestamp="1594813626497">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="146" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1594813626497" />
     <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1591419666379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -402,10 +411,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="57" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1591700732522" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1593146118683">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1594257533308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593146118683" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1594257533308" />
     <state x="431" y="145" width="670" height="676" key="search.everywhere.popup" timestamp="1593154912330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

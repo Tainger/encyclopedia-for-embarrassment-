@@ -12,4 +12,8 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface UserDao extends TKMapper<User> {
 
+    int editUserpic(User user);
+
+    int updateUserpic(User user);
+
 }

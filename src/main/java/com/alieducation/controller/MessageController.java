@@ -19,7 +19,7 @@ import java.util.Map;
  * @version 1.0
  * @date 2020/6/27 19:26
  */
-@RestController()
+@RestController
 @RequestMapping("api/message")
 public class MessageController {
 

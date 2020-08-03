@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.alieducation.dao.FollowDao">
+
+    <sql id="user_colum">
+        id, name, header_url, password, phone, email, status, create_time
+    </sql>
+
+    <select id="getFriends" resultMap="com.alieducation.entity.User" parameterType="com.alieducation.entity.Follow">
+        select <include refid="user_colum"></include> from user where id in (SELECT user_id FROM follow WHERE user_id in
+        (select follow_id FROM follow WHERE user_id = #{follow.userId}) and follow_id = #{follow.userId});
+    </select>
+
+    <select id="getFollowers" resultMap="com.alieducation.entity.User" parameterType="com.alieducation.entity.Follow">
+        select <include refid="user_colum"></include> from user where id in (SELECT user_id FROM follow WHERE user_id in
+        (select follow_id FROM follow WHERE user_id = #{follow.userId}) and follow_id = #{follow.userId});
+    </select>
+
+    <select id="getFollowees" resultMap="com.alieducation.entity.User" parameterType="com.alieducation.entity.Follow">
+        select <include refid="user_colum"></include> from FROM follow WHERE user_id
+        in( select  follow_id FROM follow WHERE follow_id = #{follow.userId});
+    </select>
+
+</mapper>

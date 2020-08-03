@@ -4,4 +4,8 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.alieducation.dao.UserDao">
 
+    <select id="updateUserpic" parameterType="com.alieducation.entity.User" resultType="int">
+        update user SET name = #{user.userName}  WHERE id =#{user.id};
+    </select>
+
 </mapper>

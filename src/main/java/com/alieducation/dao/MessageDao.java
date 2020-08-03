@@ -5,6 +5,7 @@ import com.alieducation.entity.mongodb.MongoMessage;
 import com.alieducation.entity.mongodb.MongoUser;
 import com.mongodb.client.result.DeleteResult;
 import com.mongodb.client.result.UpdateResult;
+import org.apache.ibatis.annotations.Mapper;
 import org.bson.types.ObjectId;
 
 import java.util.List;
@@ -14,7 +15,7 @@ import java.util.List;
  * @version 1.0
  * @date 2020/6/26 12:55
  */
-
+@Mapper
 public interface MessageDao {
 
     /**
@@ -50,7 +51,18 @@ public interface MessageDao {
      */
     DeleteResult deleteMessageById(String id);
 
+    /**
+     *
+     * @param fromUserId
+     * @return
+     */
     MongoUser findUserById(long fromUserId);
 
+    /**
+     *
+     * @param fromUserId
+     * @param toUserId
+     * @return
+     */
     List<MongoMessage> selectNewestMessageOfConversation(long fromUserId, long toUserId);
 }

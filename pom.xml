@@ -14,8 +14,14 @@
         <version>2.3.0.RELEASE</version>
         <relativePath/>
     </parent>
-
+    <packaging>war</packaging>
     <dependencies>
+        <!-- apache httpClient -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.12</version>
+        </dependency>
         <!--阿里大于sdk-->
         <dependency>
             <groupId>com.aliyun</groupId>
@@ -135,8 +141,6 @@
             <version>1.0.0.Final</version>
         </dependency>
     </dependencies>
-
-
     <build>
         <plugins>
             <plugin>
