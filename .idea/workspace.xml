@@ -2,20 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6abaa7f-3b6b-4138-8458-8c3be571a0eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/PostDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dto/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/Impl/PostServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/post-mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/MessageDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/MessageDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aliEducation/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aliEducation/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aliEducation/MongoDBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aliEducation/MongoDBTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aliEducation/TopicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aliEducation/TopicTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aliEducation/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aliEducation/UserServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/choushiEnum/LikeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/AdSenseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/AdSenseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/SupportDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dto/DtoSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dto/DtoSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/entity/AdSense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/entity/Support.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/AdSenseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/Impl/AdSenseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/Impl/SearchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/Impl/SupportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/SupportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/vo/LikeVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/support-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/FollowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/FollowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/LikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/controller/LikeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/PostDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/PostDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/TopicDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/TopicDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/demo/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/service/Impl/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/Impl/PostServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alieducation/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alieducation/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/follow-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/follow-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/post-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/post-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/topic-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/topic-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +46,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -288,6 +305,9 @@
       <workItem from="1594812962562" duration="2084000" />
       <workItem from="1595842641729" duration="1842000" />
       <workItem from="1596123386513" duration="476000" />
+      <workItem from="1596459232894" duration="2480000" />
+      <workItem from="1596502522460" duration="7666000" />
+      <workItem from="1597557522198" duration="9004000" />
     </task>
     <servers />
   </component>
@@ -303,10 +323,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1591424185202" />
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1594257428741">
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1597564294615">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594257428741" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597564294615" />
     <state x="553" y="279" width="429" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591439680957">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -323,46 +343,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1593186326874" />
-    <state x="366" y="162" key="FileChooserDialogImpl" timestamp="1594813798920">
+    <state x="366" y="162" key="FileChooserDialogImpl" timestamp="1596508454071">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="366" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594813798920" />
-    <state width="1493" height="196" key="GridCell.Tab.0.bottom" timestamp="1596123863252">
+    <state x="366" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596508454071" />
+    <state width="1492" height="214" key="GridCell.Tab.0.bottom" timestamp="1597565749351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="746" height="299" key="GridCell.Tab.0.bottom/0.0.1536.824/-1600.-70.1600.860@0.0.1536.824" timestamp="1594384897620" />
-    <state width="1493" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596123863252" />
-    <state width="1493" height="196" key="GridCell.Tab.0.center" timestamp="1596123863251">
+    <state width="1492" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597565749351" />
+    <state width="1492" height="214" key="GridCell.Tab.0.center" timestamp="1597565749351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="746" height="299" key="GridCell.Tab.0.center/0.0.1536.824/-1600.-70.1600.860@0.0.1536.824" timestamp="1594384897620" />
-    <state width="1493" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596123863251" />
-    <state width="1493" height="196" key="GridCell.Tab.0.left" timestamp="1596123863251">
+    <state width="1492" height="214" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597565749351" />
+    <state width="1492" height="214" key="GridCell.Tab.0.left" timestamp="1597565749351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="746" height="299" key="GridCell.Tab.0.left/0.0.1536.824/-1600.-70.1600.860@0.0.1536.824" timestamp="1594384897620" />
-    <state width="1493" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596123863251" />
-    <state width="1493" height="196" key="GridCell.Tab.0.right" timestamp="1596123863251">
+    <state width="1492" height="214" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597565749351" />
+    <state width="1492" height="214" key="GridCell.Tab.0.right" timestamp="1597565749351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="746" height="299" key="GridCell.Tab.0.right/0.0.1536.824/-1600.-70.1600.860@0.0.1536.824" timestamp="1594384897620" />
-    <state width="1493" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596123863251" />
-    <state width="1493" height="196" key="GridCell.Tab.1.bottom" timestamp="1596123863252">
+    <state width="1492" height="214" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597565749351" />
+    <state width="1492" height="251" key="GridCell.Tab.1.bottom" timestamp="1597565749160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596123863252" />
-    <state width="1493" height="196" key="GridCell.Tab.1.center" timestamp="1596123863252">
+    <state width="1492" height="251" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597565749160" />
+    <state width="1492" height="251" key="GridCell.Tab.1.center" timestamp="1597565749160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596123863252" />
-    <state width="1493" height="196" key="GridCell.Tab.1.left" timestamp="1596123863252">
+    <state width="1492" height="251" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597565749160" />
+    <state width="1492" height="251" key="GridCell.Tab.1.left" timestamp="1597565749159">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596123863252" />
-    <state width="1493" height="196" key="GridCell.Tab.1.right" timestamp="1596123863252">
+    <state width="1492" height="251" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597565749159" />
+    <state width="1492" height="251" key="GridCell.Tab.1.right" timestamp="1597565749160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596123863252" />
+    <state width="1492" height="251" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597565749160" />
     <state width="1493" height="471" key="GridCell.Tab.2.bottom" timestamp="1593188027626">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -403,10 +423,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="287" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1593186320234" />
-    <state x="467" y="144" width="602" height="536" key="find.popup" timestamp="1593154918489">
+    <state x="467" y="144" width="602" height="536" key="find.popup" timestamp="1597564822158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="467" y="144" width="602" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593154918489" />
+    <state x="467" y="144" width="602" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1597564822158" />
     <state x="178" y="57" key="new project wizard" timestamp="1591700732522">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -415,10 +435,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1594257533308" />
-    <state x="431" y="145" width="670" height="676" key="search.everywhere.popup" timestamp="1593154912330">
+    <state x="431" y="145" width="672" height="676" key="search.everywhere.popup" timestamp="1597563553949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="670" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593154912330" />
+    <state x="431" y="145" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597563553949" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -432,6 +452,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/alieducation/websocket/MessageHandshakeInterceptor.java</url>
           <line>32</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alieducation/service/SupportService.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

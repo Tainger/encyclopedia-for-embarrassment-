@@ -15,4 +15,10 @@ import java.util.List;
 public interface TopicDao extends TKMapper<Topic> {
 
     List<Topic> getHotTenTopic();
+
+    /**
+     * 使用like模糊查询
+     * @return
+     */
+    List<Topic> searchTopic(String topicName);
 }

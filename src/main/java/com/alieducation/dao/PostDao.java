@@ -1,8 +1,12 @@
 package com.alieducation.dao;
 
 import com.alieducation.entity.Post;
+import com.alieducation.entity.Topic;
 import com.alieducation.util.TKMapper;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 /**
  * @author JiaZhiYuan
@@ -12,4 +16,10 @@ import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
 public interface PostDao extends TKMapper<Post> {
+    /**
+     * 文章搜索
+     * @param postName
+     * @return
+     */
+    List<Post> searchPost(@Param("postName") String postName);
 }

@@ -98,7 +98,7 @@ public class FollowController {
      * @param page 页数
      * @return 结果
      */
-    @GetMapping("get-followers")
+    @GetMapping("get-followees")
     public Object getFollowee(@Min (value = 1,message = "必须为正整数") @RequestParam("userId") int userId,
                                Page page){
         Follow follow = new Follow();

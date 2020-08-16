@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.alieducation.dao.SupportDao">
+
+
+    <sql id="support">
+        id, user_id, post_id, type, create_time
+    </sql>
+
+    <select id="findSupport" parameterType="com.alieducation.entity.Support" resultType="com.alieducation.entity.Support">
+        select <include refid="support"></include>
+        from
+        support
+        where
+        support.user_id = destSupport.userId and support.post_id = destSupport.postId
+    </select>
+
+</mapper>

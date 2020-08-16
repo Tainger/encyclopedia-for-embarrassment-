@@ -1,5 +1,7 @@
 package com.alieducation.service;
 
+import com.alieducation.entity.Post;
+
 /**
  * @author JiaZhiYuan
  * @version 1.0
@@ -7,4 +9,6 @@ package com.alieducation.service;
  */
 public interface PostService {
     int selectCountOfPost();
+
+    Post findPostById(int postId);
 }

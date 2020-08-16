@@ -1,8 +1,11 @@
 package com.alieducation.dao;
 
+import com.alieducation.entity.Topic;
 import com.alieducation.entity.User;
 import com.alieducation.util.TKMapper;
 import org.apache.ibatis.annotations.Mapper;
+
+import java.util.List;
 
 /**
  * @author JiaZhiYuan
@@ -16,4 +19,5 @@ public interface UserDao extends TKMapper<User> {
 
     int updateUserpic(User user);
 
+    List<User> searchUser(String userName);
 }
